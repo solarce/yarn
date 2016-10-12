@@ -43,5 +43,7 @@ install:
  - npm install -g npm@3
  - npm install
 
-script: npm run $TEST_TYPE
+script:
+  - npm run $TEST_TYPE
+  - echo "hi"
 
